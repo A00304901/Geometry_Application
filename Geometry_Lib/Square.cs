@@ -1,4 +1,5 @@
 using Geometry_Lib;
+namespace Geometry_Lib;
 
 public class Square : I_shape
 {

@@ -1,5 +1,6 @@
 using System;
 using Geometry_Lib;
+namespace Geometry_Lib;
 
 
 public class Rectangle : I_shape
@@ -13,12 +14,12 @@ public class Rectangle : I_shape
         _width = width;
     }
 
-    public double CalculArea()
+    public double CalcArea()
     {
         return _length * _width;
     }
 
-    public double CalculPerimeter()
+    public double CalcPerimeter()
     {
         return 2 * (_length + _width);
     }
